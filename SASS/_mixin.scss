@@ -1,0 +1,50 @@
+@mixin flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin button {
+    border-radius: 0px;
+    width: 20%;
+     
+    
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@mixin SeccionesTexto {
+    
+    .SeccionesTexto{
+        align-content: justify;
+        justify-content: center;
+    }
+   
+    .TextoQuienesSomos{
+        font-size: 20px;
+    }
+    .TextoPoliticas{
+        font-size: 17px;
+    }
+    h2 {
+        text-align: center;
+        flex-wrap:wrap ;
+        
+       
+               
+    }
+
+    p {
+        text-align: justify;
+        flex-wrap:wrap ;
+    }
+    
+}

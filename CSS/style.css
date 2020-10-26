@@ -1,0 +1,87 @@
+.container {
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  color: white;
+  background-color: black; }
+
+.menubuttons {
+  border-radius: 0px;
+  width: 20%; }
+  .menubuttons :hover {
+    background-color: gray; }
+  .menubuttons a {
+    color: white; }
+
+.LeoDropdown {
+  margin-left: 5%; }
+  .LeoDropdown a {
+    color: white; }
+    .LeoDropdown a :hover {
+      background-color: #4d4b4b; }
+
+.LeoDropdownItems :active {
+  background-color: black; }
+.LeoDropdownItems :hover {
+  background-color: #4d4b4b; }
+.LeoDropdownItems a {
+  color: black; }
+
+.menuContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px; }
+
+.SeccionPoliticas,
+.SeccionNosotros {
+  background-color: black; }
+
+body {
+  background-color: black; }
+
+img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0px 10px 10px; }
+
+.Secciones {
+  display: flex;
+  flex-direction: row; }
+
+.SeccionesTexto .SeccionesTexto {
+  align-content: justify;
+  justify-content: center; }
+.SeccionesTexto .TextoQuienesSomos {
+  font-size: 20px; }
+.SeccionesTexto .TextoPoliticas {
+  font-size: 17px; }
+.SeccionesTexto h2 {
+  text-align: center;
+  flex-wrap: wrap; }
+.SeccionesTexto p {
+  text-align: justify;
+  flex-wrap: wrap; }
+
+.LeoCarrusel {
+  align-content: center;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  border: 0px; }
+
+.carouselContainer {
+  padding: 0px;
+  padding-left: 0px; }
+
+.containerNopadding {
+  padding: 0px;
+  padding-right: 10px; }
+
+/*Media querys*/
+@media (max-width: 800px) {
+  .Secciones {
+    display: flex;
+    flex-direction: column; } }
+
+/*# sourceMappingURL=style.css.map */
