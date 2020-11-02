@@ -45,6 +45,17 @@ img {
   flex-wrap: wrap;
   margin: 10px 0px 10px 10px; }
 
+#galeria img {
+  width: 100%;
+  height: 300px; }
+
+#galeria .col-lg-4 {
+  padding: 15px;
+  margin: 0px; }
+
+#galeria img:hover {
+  border: 5px black; }
+
 .Secciones {
   display: flex;
   flex-direction: row; }
