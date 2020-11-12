@@ -5,19 +5,16 @@
   background-color: black; }
 
 .menubuttons {
-  border-radius: 0px;
-  width: 20%; }
+  border-radius: 0px; }
   .menubuttons :hover {
     background-color: gray; }
   .menubuttons a {
     color: white; }
 
-.LeoDropdown {
-  margin-left: 5%; }
-  .LeoDropdown a {
-    color: white; }
-    .LeoDropdown a :hover {
-      background-color: #4d4b4b; }
+.LeoDropdown a {
+  color: white; }
+  .LeoDropdown a :hover {
+    background-color: #4d4b4b; }
 
 .LeoDropdownItems :active {
   background-color: black; }
@@ -75,7 +72,6 @@ img {
   padding-left: 0px; }
 
 .containerNopadding {
-  padding: 0px;
   padding-right: 10px; }
 
 /*Media querys*/
